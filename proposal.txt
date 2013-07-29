@@ -1,0 +1,13 @@
+*Bug: recency and volume converge toward completely red keyboards.
+ Bug: volume is only accurate to the last note per pitch,
+      e.g. hitting middle C ten times ppp and then once fff will cause middle C to be red
+
+Recency: lowest timestamp to highest timestamp
+	Elapsed time
+	Notes per second
+Frequency: lowest hits to highest hits
+	Total pitches
+	Total hits
+Volume: lowest maxvol to highest maxvol
+	Avg volume
+	Max volume
